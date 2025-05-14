@@ -1,0 +1,29 @@
+[book]
+title = "Roboton Contest"
+description = "Robotics Grand Prix — diverse tracks, F1-inspired rules, championship racing."
+authors = ["Mihnea-Teodor Stoica"]
+language = "en"
+
+[output.html]
+smart-punctuation = true
+mathjax-support = true
+site-url = "/Roboton/"
+git-repository-url = "https://github.com/MihneaTs1/Roboton/tree/main/"
+edit-url-template = "https://github.com/MihneaTs1/Roboton/tree/main/{path}"
+hash-files = true
+
+[output.html.playground]
+editable = true
+line-numbers = true
+
+[output.html.code.hidelines]
+python = "~"
+
+[output.html.search]
+limit-results = 20
+use-boolean-and = true
+boost-title = 2
+boost-hierarchy = 2
+boost-paragraph = 1
+expand = true
+heading-split-level = 2
